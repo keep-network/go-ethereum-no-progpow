@@ -1,6 +1,10 @@
 ## Go Ethereum
 
-Official Golang implementation of the Ethereum protocol.
+~~Official~~ Golang implementation of the Ethereum protocol.
+
+For now, this fork of [`go-ethereum`](https://github.com/ethereum/go-ethereum) will maintain compatibility with upstream, except in one key respect -- it won't support a PoW algorithm change before the transition to proof of stake absent a clear and present danger to the Ethereum chain.
+
+No separate build process from upstream is currently maintained. If ProgPoW is pushed through, however, this repo will serve as a rallying point ot prepare for the ProgPoW'ers splitting off mainnet, including a separate, uncaptured release process.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
